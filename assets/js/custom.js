@@ -20,6 +20,7 @@ $("input[type='text']").keypress(function(event) {
   }
 });
 
+//Toggle the plus icon for fading
 $('.fa-plus').click(function() {
   $("input[type='text']").fadeToggle();
 });
